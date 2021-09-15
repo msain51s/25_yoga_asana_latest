@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yoga_asana.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:transitionName="toolbar"
+        android:theme="@style/AppTheme.NoActionBar.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/toolbar_color"
+            android:elevation="4dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            >
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+         <TextView
+             android:id="@+id/toolbar_title_text"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             android:textColor="@color/white"
+             android:textSize="24sp"
+             android:layout_marginLeft="5dp"
+             android:layout_marginRight="50dp"
+             />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_alignParentRight="true"
+             android:text="More"
+             android:textSize="20sp"
+             android:textColor="@color/white"
+             android:layout_marginRight="5dp"
+             android:onClick="clickMore"/>
+
+       </RelativeLayout>
+            </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="7dp"
+        android:layout_below="@+id/appBarLayout"
+        />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/admob_adview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_home_top"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

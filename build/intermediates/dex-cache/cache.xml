@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.0.0/f80192e6fd828d41c7da6f3552b0bef5d89cb26e/annotations-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f80192e6fd828d41c7da6f3552b0bef5d89cb26e">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/annotations-4.0.0_153fe5860701e49484f2183b4fc5d922224b6e2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aeca0a0ab86831ec59a54723205ce9341ac22d1b">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-11.8.0_ca85484a96b4c0eeab0a019a0cd3fbbd4803eb7f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.0/db09a97f4f0db8892c1a0111a4b966f97920d082/support-annotations-26.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="db09a97f4f0db8892c1a0111a4b966f97920d082">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0_34e4171621d43e93deffa4a135b573e58a9a9817.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-11.8.0_7d6db761e9c2cbe0fa528a2ec2b264dca26272ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="24cb9bae5fbe94df0f55d87452a291b69a2f22bf">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-11.8.0_2fe5664ea61cf3cba8c26f71280c2538fd5824e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.2_b7fbf5bfb0e730ba7b599cd1d19716e73cad1dd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.0.0/47c487cc4e64e6ab127a517669ca9a7b49f8c61d/gifdecoder-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47c487cc4e64e6ab127a517669ca9a7b49f8c61d">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/gifdecoder-4.0.0_cc07922647b97016248553c1fab1f3d55394a97f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.0.0/dff931af436f0a2815d0109ab2258bbce2d6275d/glide-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dff931af436f0a2815d0109ab2258bbce2d6275d">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/glide-4.0.0_fa546fb9315e3236ef16ce23196e1e44142f5a67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.0.0_4958405cfc069f1fcdced69b66feced21baa97b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b102f892442929c3457de1ef6a94f5dda3dd8864">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.0.0_705e35d13b97cf984fb182d6ada77793f5ccabe8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.github.Gavras/GIFView/v1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="08f88e89f1b7f8847b850c52d37617aeb4fe7418">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.github.Gavras-GIFView-v1.1_a27ace79ddff2776c0193d8fc961858707bcd426.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.0.0/d88059003509074dd59fa226c822724bcf5ec0ca/disklrucache-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d88059003509074dd59fa226c822724bcf5ec0ca">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/disklrucache-4.0.0_42b1a7662c16fbb94c82eae9a48344a86998686a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.0.0/47c487cc4e64e6ab127a517669ca9a7b49f8c61d/gifdecoder-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47c487cc4e64e6ab127a517669ca9a7b49f8c61d">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/gifdecoder-4.0.0_cc07922647b97016248553c1fab1f3d55394a97f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_51f628fe8593c5e8a2b2ea23ff86647e1cafd270.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.0.0/dff931af436f0a2815d0109ab2258bbce2d6275d/glide-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dff931af436f0a2815d0109ab2258bbce2d6275d">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/glide-4.0.0_fa546fb9315e3236ef16ce23196e1e44142f5a67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support/transition/26.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd2e7a567260ca4e40c09ba330f4f2d318660554">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support-transition-26.0.0_32b0e4836ebd271e70c83d3143b8ab45aa64fca6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1a94a06ec585c9423a3c03bde1f7bf9268f83d66">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.0.0_2a9755f1e84354fbb951676bb75b6e342399ca8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cbb26a4f659b17abc1f75ff735a607aa299697ac">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.0.0_acc6692d1f73fd9f82bf7523832d44a9a5c6b6ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a7760a45a6c9f425aaa43ef391a8cf28a8bcb4a1">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-11.8.0_85462bb3e9d2e863c650068e823a8b1e5ab7328d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a8655e6077da9526c0c94bf063f1275430ce8574">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-26.0.0_229df465a15da495af883e6590c975fc54617ed1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.github.Gavras/GIFView/v1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="08f88e89f1b7f8847b850c52d37617aeb4fe7418">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.github.Gavras-GIFView-v1.1_a27ace79ddff2776c0193d8fc961858707bcd426.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="db0171d21d064bab7ad72685f3c7df40544b03a8">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-26.0.0_154eb37d8e5fe3835a15f551a04b7a786dd971a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.0.0/d88059003509074dd59fa226c822724bcf5ec0ca/disklrucache-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d88059003509074dd59fa226c822724bcf5ec0ca">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/disklrucache-4.0.0_42b1a7662c16fbb94c82eae9a48344a86998686a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support-multidex-1.0.1_feb1d53610fa3b1ff348b16cef886c9c9dfce869.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2520dd452fb1f487eba29ccd2d44358f0b8da788">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-26.0.0_56107578b8e8dc35b8e11086db20b07eba5478f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f7b86f1beb2b3625c6a1a5da6b5fc5294b64aea9">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.0.0_e3f657fe12dd2da2c72e8c4d07023c73d16ed602.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.0.0/f80192e6fd828d41c7da6f3552b0bef5d89cb26e/annotations-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f80192e6fd828d41c7da6f3552b0bef5d89cb26e">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/annotations-4.0.0_153fe5860701e49484f2183b4fc5d922224b6e2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8602ab07133e6ee182726fa27588420dba9d6d55">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.0.0_81d28bf23a4f2503fce8a9408040ae2f31f5b008.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_51f628fe8593c5e8a2b2ea23ff86647e1cafd270.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6fdbd1bd6503815f2cef20a9a137005e5953aad1">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-26.0.0_3e88d22332de936ce87fabab232fd24e39be2858.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support/design/26.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d30ac0c26495d7264529e333cec806eec64dd6f3">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support-design-26.0.0_b5468ed480ade160a1bf59895658907c8ea7a63f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="df733e6865d662899ec247e8c3dbff3e0961b8a7">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-26.0.0_a8da5313795ad1b88583c7030e04fd2d611dc60d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/mamtakumari/Documents/my apps/25_yogasana/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.2_b7fbf5bfb0e730ba7b599cd1d19716e73cad1dd1.jar" />
+    </item>
+
+</items>

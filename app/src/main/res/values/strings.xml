@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">25 योग आसन</string>
+
+    <string name="yoga_steps_text">योग विधि  : </string>
+    <string name="yoga_benefit_text">योग के लाभ  :</string>
+    <string name="precautions_of_yoga_text">योग की सावधानी  :</string>
+
+    <!-- AdMob ad unit id -->
+    <string name="banner_home_top">ca-app-pub-2170161318817386/3108219460</string>
+    <string name="interstitial_detail">ca-app-pub-2170161318817386/2803013429</string>
+    <string name="admob_app_id" >ca-app-pub-2170161318817386~6500669565</string>
+</resources>

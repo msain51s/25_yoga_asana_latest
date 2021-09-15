@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Image or Gif indication array-->
+
+    <integer-array name="img_or_gif_indication_array">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+
+    <!--Image Array-->
+    <array name="thumb_img_array">
+        <item>@drawable/anulom_vilom</item>
+        <item>@drawable/kapalbhati</item>
+        <item>@drawable/vajrasana</item>
+        <item>@drawable/surya_namaskar</item>
+        <item>@drawable/ushtrasana</item>
+        <item>@drawable/konasana</item>
+        <item>@drawable/chakrasana</item>
+        <item>@drawable/setu_bandha</item>
+        <item>@drawable/tadasana</item>
+        <item>@drawable/dhanurasana</item>
+        <item>@drawable/padmasana</item>
+        <item>@drawable/pawan_muktasana</item>
+        <item>@drawable/paschimottanasana</item>
+        <item>@drawable/balasana</item>
+        <item>@drawable/mandukasana</item>
+        <item>@drawable/makrasana</item>
+        <item>@drawable/bhujangasana</item>
+        <item>@drawable/sarvangasana</item>
+        <item>@drawable/halasana</item>
+        <item>@drawable/balayam</item>
+        <item>@drawable/kunjal_kriya</item>
+        <item>@drawable/ardhmatsyasana</item>
+        <item>@drawable/naukasana</item>
+        <item>@drawable/jala_neti</item>
+    </array>
+</resources>
