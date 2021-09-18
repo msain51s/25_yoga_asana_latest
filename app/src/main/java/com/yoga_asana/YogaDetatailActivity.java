@@ -1,23 +1,27 @@
 package com.yoga_asana;
 
 import android.graphics.Typeface;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 import com.bumptech.glide.Glide;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
+import com.whygraphics.gifview.gif.GIFView;
 import com.yoga_asana.model.YogaDetailModel;
 import com.yoga_asana.utility.Application;
 import com.yoga_asana.utility.FontType;
 import com.yoga_asana.utility.Utils;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
-import com.whygraphics.gifview.gif.GIFView;
 
 public class YogaDetatailActivity extends AppCompatActivity {
     InterstitialAd mAdMobInterstitialAd;
@@ -46,19 +50,31 @@ public class YogaDetatailActivity extends AppCompatActivity {
         benefitsOfYoga.setTypeface(roboto_regular);
         precautions.setTypeface(roboto_regular);
 
-        mAdMobInterstitialAd = new InterstitialAd(this);
-        mAdMobInterstitialAd.setAdUnitId(getString(R.string.interstitial_detail));
         AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-               /* .addTestDevice("26D932C1F8FA1407702FC623889D39A7")*/// Add your real device id here
                 .build();
 
-        mAdMobInterstitialAd.loadAd(adRequest);
-        mAdMobInterstitialAd.setAdListener(new AdListener() {
-            public void onAdLoaded() {
-                showInterstitialAd();
-            }
-        });
+        InterstitialAd.load(this,getString(R.string.interstitial_detail), adRequest,
+                new InterstitialAdLoadCallback() {
+                    @Override
+                    public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
+                        // The mInterstitialAd reference will be null until
+                        // an ad is loaded.
+                        mAdMobInterstitialAd = interstitialAd;
+                        if (mAdMobInterstitialAd != null) {
+                            mAdMobInterstitialAd.show(YogaDetatailActivity.this);
+                        } else {
+                            Log.d("TAG", "The interstitial ad wasn't ready yet.");
+                        }
+                        Log.i("TAG", "onAdLoaded");
+                    }
+
+                    @Override
+                    public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+                        // Handle the error
+                        Log.i("TAG", loadAdError.getMessage());
+                        mAdMobInterstitialAd = null;
+                    }
+                });
 
         Bundle bundle=getIntent().getExtras();
         if(bundle!=null){
@@ -87,12 +103,6 @@ public class YogaDetatailActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-    }
-
-    private void showInterstitialAd() {
-        if (mAdMobInterstitialAd.isLoaded()) {
-            mAdMobInterstitialAd.show();
-        }
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_pink"
+    android:background="@color/grey"
     tools:context="com.yoga_asana.YogaDetatailActivity">
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
+        android:elevation="5dp"
+        android:layout_marginBottom="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         android:theme="@style/AppTheme.NoActionBar.AppBarOverlay">
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -30,35 +34,72 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 />
-        </android.support.v7.widget.Toolbar>
+        </androidx.appcompat.widget.Toolbar>
 
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:scrollbars="none"
-    android:layout_below="@+id/appBarLayout">
- <RelativeLayout
+    android:fillViewport="true"
+    android:paddingBottom="70dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/appBarLayout">
+ <androidx.constraintlayout.widget.ConstraintLayout
      android:layout_width="match_parent"
      android:layout_height="wrap_content"
-     android:paddingBottom="10dp">
-    <RelativeLayout
+     android:padding="10dp">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_imageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardElevation="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="10dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/imageLayout"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
-     <ImageView
+     <androidx.appcompat.widget.AppCompatImageView
          android:id="@+id/detail_image"
          android:layout_width="match_parent"
          android:layout_height="200dp"
-         android:background="@color/white"
-         android:visibility="gone"/>
+         android:visibility="gone"
+         tools:visibility="visible"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintTop_toTopOf="parent"/>
     <com.whygraphics.gifview.gif.GIFView
         android:id="@+id/detail_image_gif"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="@color/white"
-        android:visibility="gone"/>
-    </RelativeLayout>
+        android:visibility="gone"
+        tools:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_detailLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/light_pink"
+        app:cardElevation="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/card_imageLayout"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/detailLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
     <TextView
         android:id="@+id/yoga_steps"
         android:layout_width="match_parent"
@@ -68,9 +109,11 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="10dp"
-        android:textSize="20sp"
+        android:textSize="19sp"
         android:text="@string/yoga_steps_text"
-        android:layout_below="@+id/imageLayout"/>
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
     <TextView
         android:id="@+id/yoga_steps_detail_text"
         android:layout_width="match_parent"
@@ -81,16 +124,19 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="5dp"
-        android:layout_below="@+id/yoga_steps"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/yoga_steps"/>
     <TextView
         android:id="@+id/benefits_of_yoga"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
         android:layout_margin="10dp"
-        android:textSize="20sp"
+        android:textSize="19sp"
         android:text="@string/yoga_benefit_text"
-        android:layout_below="@+id/yoga_steps_detail_text"/>
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/yoga_steps_detail_text"/>
     <TextView
         android:id="@+id/benefits_of_yoga_detail_text"
         android:layout_width="match_parent"
@@ -101,7 +147,8 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="5dp"
-        android:layout_below="@+id/benefits_of_yoga"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/benefits_of_yoga"/>
 
     <TextView
         android:id="@+id/precautions_of_yoga"
@@ -109,9 +156,11 @@
         android:layout_height="wrap_content"
         android:textColor="@color/white"
         android:layout_margin="10dp"
-        android:textSize="20sp"
+        android:textSize="19sp"
         android:text="@string/precautions_of_yoga_text"
-        android:layout_below="@+id/benefits_of_yoga_detail_text"/>
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/benefits_of_yoga_detail_text"/>
     <TextView
         android:id="@+id/precautions_of_yoga_detail_text"
         android:layout_width="match_parent"
@@ -122,7 +171,10 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="5dp"
-        android:layout_below="@+id/precautions_of_yoga"/>
- </RelativeLayout>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/precautions_of_yoga"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+ </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

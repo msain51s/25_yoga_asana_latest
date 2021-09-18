@@ -23,6 +23,5 @@ public class Application extends android.app.Application {
     public void onCreate() {
         super.onCreate();
         mContext=getApplicationContext();
-        MobileAds.initialize(this, getString(R.string.admob_app_id));
     }
 }
